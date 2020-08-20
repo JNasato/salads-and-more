@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 
 // services
 import { RecipeService } from './services/recipe.service';
+
+//components
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { HomeComponent } from './pages/home/home.component';
 import { EditRecipeComponent } from './pages/edit-recipe/edit-recipe.component';

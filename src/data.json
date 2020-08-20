@@ -1,0 +1,91 @@
+{
+  "recipes": [
+    {
+      "id": 1,
+      "title": "Best Tacos in Canada",
+      "description": "This is a recipe for the best tasting tacos in the country. It is a recipe from the Heavens!",
+      "serves": 2,
+      "imageUrl": "assets/tacos.jpg",
+      "ingredients": [
+        {
+          "amount": "2 lbs",
+          "name": "ground beef"
+        },
+        {
+          "amount": 3,
+          "name": "taco shells"
+        },
+        {
+          "amount": "3 tablespoons",
+          "name": "sour cream"
+        }
+      ],
+      "instructions": [
+        "fry up ground beef",
+        "add seasoning to beef",
+        "place beef into taco shells",
+        "cook tacos for 15 minutes",
+        "add dollops of sour cream on top"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Authentic Sushi",
+      "description": "This was a recipe handed down through my family, as authentic as it gets!",
+      "serves": 4,
+      "imageUrl": "assets/sushi.jpg",
+      "ingredients": [
+        {
+          "amount": "4 cups",
+          "name": "jasmin rice"
+        },
+        {
+          "amount": "1/2 lb",
+          "name": "salmon"
+        },
+        {
+          "amount": 1,
+          "name": "cucumber"
+        },
+        {
+          "amount": "1/4 lb",
+          "name": "crab meat"
+        }
+      ],
+      "instructions": [
+        "it's a secret"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Cinco de Cheesy Mac",
+      "description": "Diabetes in a bowl. No regrets.",
+      "serves": 1,
+      "imageUrl": "assets/mac-and-cheese.jpg",
+      "ingredients": [
+        {
+          "amount": "5 rolls",
+          "name": "cheese"
+        },
+        {
+          "amount": "2 bags",
+          "name": "maceroni noodles"
+        },
+        {
+          "amount": "3 strips",
+          "name": "turkey bacon"
+        }
+      ],
+      "instructions": [
+        "bring 2/3 pot of water to boil",
+        "pour in maceroni noodles",
+        "strain noodles after 8-10 minutes",
+        "fry up bacon on medium heat",
+        "mix in bacon and cheese",
+        "stir vigorously for 30-40 seconds",
+        "realize you messed up somewhere and it doesn't look anything like the recipe",
+        "make a drink and Kraft Dinner instead"
+      ]
+    }
+  ]
+}

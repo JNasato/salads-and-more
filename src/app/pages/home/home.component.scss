@@ -1,0 +1,17 @@
+.jumbotron {
+  background: url('../../../assets/food-bg.jpg');
+  background-size: cover;
+  border-radius: 0;
+  margin-top: 64px;
+  padding-left: 100px;
+}
+
+.jumbotron-heading, p.lead {
+  color: white;
+  text-shadow: 2px 2px 3px #000000;
+}
+
+.card {
+  margin-bottom: 2em;
+  width: 18em;
+}

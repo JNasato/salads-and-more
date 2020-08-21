@@ -17,7 +17,7 @@ export class RecipeService {
   }
 
   public getRecipes(): Recipe[] {
-    return this.recipes;
+    return this.recipes.reverse();
   }
 
   public getRecipeById(id: number): Recipe {

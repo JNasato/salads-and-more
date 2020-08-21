@@ -1,5 +1,17 @@
 .navbar-brand, #add-recipe {
   color: white;
-  padding-left: 110px;
-  padding-right: 110px;
+  margin-left: 110px;
+  margin-right: 110px;
+  min-width: 100px;
+  border-radius: .25rem;
+}
+
+#add-recipe:hover {
+  background-color: white;
+  color: #5cb85c;
+}
+
+.spacer {
+  height: 64px;
+  background-color: #5cb85c;
 }

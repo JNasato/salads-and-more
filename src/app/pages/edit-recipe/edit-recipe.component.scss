@@ -1,3 +1,8 @@
+.container {
+  position: relative;
+  right: 40px;
+}
+
 .header-image {
   width: 100%;
   height: 300px;
@@ -13,18 +18,10 @@ h2 {
   margin-bottom: 1em;
 }
 
-.main {
-  background-color: #ececec;
-  padding: 1em;
-}
-
 button {
   margin-right: 1em;
   min-width: 100px;
 
-  &:first-child {
-    margin: 1.5em 2.05em;
-  }
   &:last-child {
     margin-right: 0;
   }
@@ -34,7 +31,11 @@ form {
   margin-top: 1em;
 }
 
-.back-and-save {
+.back {
+  margin: 1.5em 4.55em;
+}
+
+.save {
   margin-top: 2em;
   margin-bottom: 2em;
 }

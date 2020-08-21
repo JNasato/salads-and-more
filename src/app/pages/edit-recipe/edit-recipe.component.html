@@ -1,7 +1,7 @@
 <app-navbar></app-navbar>
 <img class="header-image" src="{{recipe.imageUrl}}" alt="{{recipe.title}}">
 <div class="container">
-  <button class="btn btn-success" (click)="back()">Back</button>
+  <button class="btn btn-success back" (click)="back()">Back</button>
   <div class="row d-flex justify-content-center">
     <div class="col-1">
     </div>
@@ -84,7 +84,7 @@
       <div class="w-100 d-flex justify-content-center">
         <div class="col-1"></div>
         <div class="col-6">
-          <button class="btn btn-success w-100" (click)="addInstruction()">Add</button>
+          <button class="btn btn-outline-success w-100" (click)="addInstruction()">Add</button>
         </div>
       </div>
     </div>
@@ -117,15 +117,15 @@
       <div class="w-100 d-flex justify-content-center">
         <div class="col-1"></div>
         <div class="col-6">
-          <button class="btn btn-success w-100" (click)="addIngredient()">Add</button>
+          <button class="btn btn-outline-success w-100" (click)="addIngredient()">Add</button>
         </div>
       </div>
     </div>
 
-    <div class="row d-flex justify-content-center back-and-save">
+    <div class="row d-flex justify-content-center save">
       <div class="col-1"></div>
       <div class="col-6 d-flex justify-content-center">
-        <button class="btn btn-primary btn-lg" (click)="submitForm()">Save</button>
+        <button class="btn btn-success btn-lg" (click)="submitForm()">Save</button>
       </div>
     </div>
   </form>
